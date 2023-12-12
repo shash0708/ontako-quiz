@@ -1,0 +1,85 @@
+@media (min-width: 200px) and (max-width: 768px) {
+  .acelogo-responsive {
+    height: 4.5rem; /* Adjust the height accordingly */
+    width: auto;
+  }
+}
+
+/* @media (max-width: 377px) {
+  .your-div-class {
+    display: hidden;
+  }
+} */
+
+/* custom.css or add these styles directly to your component */
+@media (max-width: 500px) {
+  .your-div-class {
+    display: none;
+    
+  }
+  .imp{
+    height: auto;
+  }
+  
+}
+/* custom.css or add these styles directly to your component */
+@media (max-width: 600px) {
+  .custom-text::before {
+    content: "ACE";
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .custom-text {
+    width: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .imp {
+    /* Adjust the height or other styles for the image as needed */
+    height: 5px;
+  }
+}
+@media (max-width: 375px) {
+  .h-40 {
+    /* Adjust the height or other styles for the image as needed */
+    height: auto;
+  }
+
+  .flex-1 {
+    /* Adjust the flex properties or other styles for the content as needed */
+    flex: auto;
+    padding: 2.5rem; /* Adjust the padding as needed */
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 1s ease-in-out;
+}
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  animation: fadeInUp 0.8s ease-in-out;
+}

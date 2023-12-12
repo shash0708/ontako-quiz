@@ -1,20 +1,20 @@
 import { Fragment } from 'react'
 import { Disclosure, } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import './custom.css';
 
 
 export default function Example() {
   return (
     <nav className="shadow-md ">
-    <Disclosure as="nav" className=" p-3 shadow-md">
+    <Disclosure as="nav" className=" p-3 shadow-md ">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-9xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                {/* <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
                   {open ? (
@@ -22,23 +22,33 @@ export default function Example() {
                   ) : (
                     <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
                   )}
-                </Disclosure.Button>
+                </Disclosure.Button> */}
               </div>
            
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              {/* <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
-                  <img
-                    className="h-20 w-auto"
-                    src="assests/srkr.png"
-                    alt="Your Company"
-                  />
-                   <div className="absolute left-1/2 text-7xl text-red-900 transform -translate-x-1/2 items-center justify-center font-bold">
-  <p>ONTAKO</p>
+                <img
+  class="h-20 w-auto sm:h-1 md:h-1 lg:h-10 xl:h-8"
+  src="assests/srkr.png"
+  alt="Your Company"
+/> */}
+    <div>
+                    {/* <Menu.Button className="relative flex  bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                      <span className="absolute -inset-1.5" /> */}
+                      <span className="sr-only">Open user menu</span>
+                      <img
+class="h-20 w-auto sm:h-20= md:h-50 lg:h-30 xl:h-30 acelogo-responsive"  src="assests/srkr.png"
+  alt="Your Company"
+/>
+
+                    {/* </Menu.Button> */}
+                  </div>
+                 <div class="absolute left-1/2 text-3xl text-red-900 transform -translate-x-1/2 items-center justify-center font-bold">
+  <p class="sm:text-50xl md:text-4xl lg:text-5xl xl:text-8xl">ONTAKO</p>
 </div>
 
-                </div>
-               
-              </div>
+
+                
           
               <div className="absolute inset-y-0 right-0 flex items-center pr-2  justify-evenly sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 {/* <button
@@ -57,10 +67,12 @@ export default function Example() {
                       <span className="absolute -inset-1.5" /> */}
                       <span className="sr-only">Open user menu</span>
                       <img
-                    className="h-20 w-auto"
-                    src="assests/acelogo.png"
-                    alt="Your Company"
-                  />
+  class="h-20 w-auto sm:h-20= md:h-50 lg:h-30 xl:h-30 acelogo-responsive"
+  src="assests/acelogo.png"
+  alt="Your Company"
+/>
+
+
                     {/* </Menu.Button> */}
                   </div>
                   

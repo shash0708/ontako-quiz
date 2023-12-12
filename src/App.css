@@ -1,6 +1,5 @@
-.app-container {
+/* .app-container {
     padding: 20px;/* Adjust the padding value as needed */
-  }
 
   /* YourComponent.css */
 
@@ -11,3 +10,4 @@
 .icon-button:hover svg  {
   fill: rgb(247, 15, 15); /* Change the fill color on hover */
 }
+
