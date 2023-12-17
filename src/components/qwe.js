@@ -42,7 +42,11 @@ function Qwe() {
                 Start
               </button>
             </div>
-           
+            <div className="flex items-center your-div-class">
+              <p>
+                Start date: 06 Nov 2023 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; End date: 06 Nov 2023
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -65,6 +69,7 @@ function Qwe() {
                 onClick={handleButtonClick1}
               >
                 Start
+                  <p>asodfjg</p>
               </button>
               
             </div>
