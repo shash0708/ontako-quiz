@@ -41,6 +41,7 @@ function Qwe() {
               >
                 Start
               </button>
+                     <p>asodfjg</p>
             </div>
             <div className="flex items-center your-div-class">
               <p>
@@ -69,7 +70,7 @@ function Qwe() {
                 onClick={handleButtonClick1}
               >
                 Start
-                  <p>asodfjg</p>
+               
               </button>
               
             </div>
