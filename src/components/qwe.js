@@ -41,7 +41,7 @@ function Qwe() {
               >
                 Start
               </button>
-                     <p>asodfjg</p>
+                    
             </div>
             <div className="flex items-center your-div-class">
               <p>
