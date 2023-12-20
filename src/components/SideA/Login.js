@@ -36,9 +36,12 @@ const Login = () => {
   return (
     <>
       <div className="p-4  mt-20 box">
-        <h1>LOGIN</h1>
+        
         {error && <Alert variant="danger">{error}</Alert>}
         <Form onSubmit={handleSubmit}>
+     <div className=" flex items-center justify-center  ">
+        <h3><u>LOGIN</u></h3>
+        </div>
           <Form.Group className="mb-3 flex items-center justify-center" controlId="formBasicEmail">
             <Form.Control
               type="email"
